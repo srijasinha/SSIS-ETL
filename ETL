@@ -1,0 +1,3 @@
+1)DFT (Data flow task) - Its a core component of ETL.It helps to move the data between source and destinatios.
+source->Transformations->Destinations.
+2)Connection managers- This sql extracts the data from diffrent source and loads in complete diffrent destination.It contains the physical connection string
