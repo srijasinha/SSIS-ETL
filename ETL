@@ -12,4 +12,6 @@ f)Configure the lookup connection settings  and map the columns
 4)Conditional split - It is used to apply conditions and route data rows to diffrent output based on cspecefic conditions.It allows us to split the data 
 in multiple destinations depending on content of data.
 5)Better approch for incremental load- 1)Creating stateging table- Its global temp table
-                                       2)Data flow task - 
+                                       2)Data flow task - Load data from source to destination
+                                       3)Update the target table with data present in stageing table.
+
