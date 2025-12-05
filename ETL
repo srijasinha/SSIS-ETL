@@ -9,4 +9,7 @@ d)Drag and drop lookup transformations - Lookup transformations which is used to
 exixsting data from the refrence table and find matching ones.
 e)In Lookup Transformation in General Tablb select Full Cache and OLEDB connection manager 
 f)Configure the lookup connection settings  and map the columns
-4)Conditional split - 
+4)Conditional split - It is used to apply conditions and route data rows to diffrent output based on cspecefic conditions.It allows us to split the data 
+in multiple destinations depending on content of data.
+5)Better approch for incremental load- 1)Creating stateging table- Its global temp table
+                                       2)Data flow task - 
