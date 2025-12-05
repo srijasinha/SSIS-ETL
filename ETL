@@ -9,3 +9,4 @@ d)Drag and drop lookup transformations - Lookup transformations which is used to
 exixsting data from the refrence table and find matching ones.
 e)In Lookup Transformation in General Tablb select Full Cache and OLEDB connection manager 
 f)Configure the lookup connection settings  and map the columns
+4)Conditional split - 
