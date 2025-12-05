@@ -1,3 +1,8 @@
 1)DFT (Data flow task) - Its a core component of ETL.It helps to move the data between source and destinatios.
 source->Transformations->Destinations.
 2)Connection managers- This sql extracts the data from diffrent source and loads in complete diffrent destination.It contains the physical connection string
+3)Incremental Load- Incremental load is to compare the target table against source data based on ID Or Time stamp
+Configure Incremental load in SSIS - a)Dgrag and drop DFT task from toolbox
+b)Drag and drop OLEDB Sourceand check connection manager and select required DB from source. 
+c)Check the columns mappings
+d)
