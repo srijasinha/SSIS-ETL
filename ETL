@@ -5,4 +5,7 @@ source->Transformations->Destinations.
 Configure Incremental load in SSIS - a)Dgrag and drop DFT task from toolbox
 b)Drag and drop OLEDB Sourceand check connection manager and select required DB from source. 
 c)Check the columns mappings
-d)
+d)Drag and drop lookup transformations - Lookup transformations which is used to compare source data to the
+exixsting data from the refrence table and find matching ones.
+e)In Lookup Transformation in General Tablb select Full Cache and OLEDB connection manager 
+f)Configure the lookup connection settings  and map the columns
