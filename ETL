@@ -15,3 +15,13 @@ in multiple destinations depending on content of data.
                                        2)Data flow task - Load data from source to destination
                                        3)Update the target table with data present in stageing table.
 
+Questrions - 
+1)What is SSIS?
+Ans - SSIS is a SQL Server Integration tool from Microsoft that allows us to perform ETL operations between 
+source and destinations.
+2)Key components of SSIS?
+Ans- Connection manager, Data Flow, control Flow, Event Handlers,Vaiables,Expressions,Log Providers.
+3)What is use of control Flow in SSIS?
+Ans- Control Flow is used 
+
+
