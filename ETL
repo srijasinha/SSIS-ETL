@@ -19,9 +19,34 @@ Questrions -
 1)What is SSIS?
 Ans - SSIS is a SQL Server Integration tool from Microsoft that allows us to perform ETL operations between 
 source and destinations.
+
 2)Key components of SSIS?
 Ans- Connection manager, Data Flow, control Flow, Event Handlers,Vaiables,Expressions,Log Providers.
+
 3)What is use of control Flow in SSIS?
-Ans- Control Flow is used 
+Ans- Control Flow is used to define the sequence of task or container that need to be executed as a 
+part of SSIS package.This task include ForLoop container, For each container,SQL Sript task.
+
+4)How does SSIS handle data transformation?
+Ans-SSIS uses the DFT task to perform Data transformation.This task include source,Transformation,
+Destination components that helps to extract ,mainupulate and load data in target system.
+
+5)What is diffrence between Slowly changing Dimenions (SCD) types 1 aqnd types 2?
+Ans- SCD Type 1 updates the records without keeping track of historical data. while SCD type 2 creates a 
+new version of records whenever there is change maintaing a history of all previous versions.
+
+6)How do you debug an SSIS package?
+Ans- We can use built in Debuging tools in visual stiudio such as break points, call stack,watch windows to find 
+issues within in your package.We can also run package in debug mode to step throgh each task and container.
+
+7)How do you handle errors in SSIS?
+Ans- SSIS has built in error handling features like OnErrors,OnWarning, On Information events.Developers can configure at
+package level and at container level.
+
+8)What is purpose of using Checkpoints in SSIS?
+Ans- Checkpoints enables to 
+
+
+
 
 
