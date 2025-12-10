@@ -44,9 +44,22 @@ Ans- SSIS has built in error handling features like OnErrors,OnWarning, On Infor
 package level and at container level.
 
 8)What is purpose of using Checkpoints in SSIS?
-Ans- Checkpoints enables to 
+Ans- Checkpoints enables to ssis to save the state of running package before it fails due to any reason.
 
+9)What is diffrence between Full Load and incremental Load?
+Ans- Full load will load all the data from source syatem to destination system whether 
+it exixts already or not.
+Incremental Load - will load only updated data since the last time it was loaded.
 
+10)How do you deploy SSIS poject?
+Ans- To deploy project first build the project and generate ISPAC file.Then you use either SSMS deployment server
+to publish project over a specified server.
 
+11)How to retrive data from flst file source in SSIS?
+Ans- we can add flat file source component to DFT task and configure its properties according to 
+format of input file.
 
-
+12)How do you perform lookup operations in ssis?
+Ans-lOOKUP operqations can be performed by adding a lookup transformation component to the data flow task.
+Lookup transformations which is used to match the incoming rows against the refrence dataset and return 
+matching ones.
