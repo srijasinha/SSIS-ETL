@@ -55,7 +55,7 @@ Incremental Load - will load only updated data since the last time it was loaded
 Ans- To deploy project first build the project and generate ISPAC file.Then you use either SSMS deployment server
 to publish project over a specified server.
 
-11)How to retrive data from flst file source in SSIS?
+11)How to retrive data from flat file source in SSIS?
 Ans- we can add flat file source component to DFT task and configure its properties according to 
 format of input file.
 
@@ -63,3 +63,20 @@ format of input file.
 Ans-lOOKUP operqations can be performed by adding a lookup transformation component to the data flow task.
 Lookup transformations which is used to match the incoming rows against the refrence dataset and return 
 matching ones.
+
+13)How do you merge two datasets in SSIS?
+Ans-Merge operations can be performed by adding a merge join transformation component to the DFT.
+
+14)How do you sort data in SSIS?
+Ans- sorting can be done by sort transformation component in control flow.This component sorts the input data
+based on one or multiple columns defined by developer.
+
+15)How do you split data in ssis?
+Ans-Ans-spliting can be done by conditional split transformation component in control flow.
+This component routes the rows to diffrent output based on conditions defined by developer.
+
+16)How do you aggregate data in ssis?
+Ans-Ans-Aggregate can be done by Aggregrate transformation component in control flow.
+
+17)How do you audit and log activities in ssis?
+Ans- 
