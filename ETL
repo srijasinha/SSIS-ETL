@@ -79,4 +79,10 @@ This component routes the rows to diffrent output based on conditions defined by
 Ans-Ans-Aggregate can be done by Aggregrate transformation component in control flow.
 
 17)How do you audit and log activities in ssis?
-Ans- 
+Ans-By configuring the event handlers properties.
+
+18)How do you validate data in SSIS?
+Ans-Validating data can be achived by adding a Data viewer component to the Data Flow task.This component displays real time data flowing through pipeline. 
+
+19)How do you convert data types in SSIS?
+Ans- Conerting the data can be achieved by Data conversion Transformation component in DFT.
