@@ -86,3 +86,17 @@ Ans-Validating data can be achived by adding a Data viewer component to the Data
 
 19)How do you convert data types in SSIS?
 Ans- Conerting the data can be achieved by Data conversion Transformation component in DFT.
+
+20)How can you derive calculated field in SSIS?
+Ans- It can be achived by derieved column tansformation component in SSIS.
+
+21)How can you filter data in ssis?
+Ans- By adding a Row filter transform component to the DFT.
+
+22)How can you piviot data in SSIS?
+Ans-Pivioting data can be achieved by adding a Piviot Transformation component to the DFT.
+The component rotates the rows into columns based on specified value.
+
+23))How can you Unpiviot data in SSIS?
+Ans-UnPivioting data can be achieved by adding a UnPiviot Transformation component to the DFT.
+The component rotates the columns into rows based on specified set of columns value.
